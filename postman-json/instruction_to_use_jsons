@@ -1,0 +1,35 @@
+Password Verification API - Postman Setup
+This guide explains how to import the Postman collection and environment files to easily test the Password Verification API.
+
+📥 Importing Postman Collection
+Open Postman on your system.
+Click on "Import" in the top-left corner.
+Select "Upload Files" and choose the file:
+📂 password_verification_collection.json (Replace with your actual filename)
+Click "Import" to add the collection to Postman.
+
+🌎 Importing Postman Environment
+In Postman, go to "Environments" (⚙️ icon in the top-right corner).
+Click "Import" and select the file:
+📂 password_verification_environment.json (Replace with your actual filename)
+Click "Import", and the environment will be added.
+Click on the Environment Dropdown (top-right in Postman) and select PasswordAPI.
+
+🚀 Using the API
+1️⃣ Encode Password
+Open the Encode Password request in Postman.
+Click "Send", and you’ll receive an encoded password in response.
+
+2️⃣ Verify Password
+Open the Verify Password request.
+Click "Send", and the response will confirm whether the password matches.
+
+🔐 Authentication
+This API uses Basic Authentication. The credentials are already stored as environment variables:
+
+Username: admin
+Password: admin123
+If needed, update these values in Postman > Environments.
+
+🛠️ Modifying the API
+If you change API URLs or credentials, update the Postman Environment Variables accordingly.
